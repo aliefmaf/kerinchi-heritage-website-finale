@@ -56,27 +56,66 @@ An immersive, premium digital archive and exhibition space dedicated to preservi
     └── artwork.ts             # Strict TypeScript definitions
 ```
 
-# Getting Started
-Prerequisites
-Ensure you have Node.js installed (v18.x or later recommended) and pnpm:
+# Kerinchi Heritage Website
 
-Bash
+## Getting Started
+
+### Prerequisites
+
+Ensure you have **Node.js** installed (v18.x or later recommended) and **pnpm**:
+
+```bash
 npm install -g pnpm
-Installation & Local Setup
-Clone the Repository:
+```
 
-Bash
-git clone [https://github.com/aliefmaf/kerinchi-heritage-website-finale.git](https://github.com/aliefmaf/kerinchi-heritage-website-finale.git)
+### Installation & Local Setup
+
+**Clone the Repository:**
+
+```bash
+git clone https://github.com/aliefmaf/kerinchi-heritage-website-finale.git
 cd kerinchi-heritage-website-finale
-Install Dependencies:
+```
 
-Bash
+**Install Dependencies:**
+
+```bash
 pnpm install
-Run the Development Server:
+```
 
-Bash
+**Run the Development Server:**
+
+```bash
 pnpm dev
-View the Application:
+```
+
+**View the Application:**
+
+Open [http://localhost:3000](http://localhost:3000) in your web browser.
+
+---
+
+## 🏗️ Production Build
+
+To build the static application for production optimization:
+
+```bash
+pnpm build
+pnpm start
+```
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 🤝 Acknowledgments
+
+- Designed to bridge the gap between historical heritage and cutting-edge web design.
+- Built using interactive components inspired by sleek modern web portfolios.
 Open http://localhost:3000 in your web browser.
 
 🏗️ Production Build
